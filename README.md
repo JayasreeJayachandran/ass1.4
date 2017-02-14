@@ -28,3 +28,21 @@ This has the effect of increasing infrastructure capacity roughly linearly.
 Data centers often scale out using pods. Build a compute pod, spin up applications to use it, then scale  
 out by building another pod to add capacity. Actual application performance may not be linear,  
 as application architectures must be written to work effectively in a scale-out environment. 
+3.SOLUTION TO HANDLE BIG DATA:
+Solution to the exploding data can only be increasing the capababilities of the system that collects/manages it.
+For this we use,
+
+Scale up: where this is not a recommended one which the data storage exceeds the limit the storage 
+ 	device capacity can be added up.as well it a costly,time consuming and a complex process.
+ 	> Increase the configuration of a single system, like disk capacity, RAM, data transfer
+ 	speed, etc.
+ 	> Complex, costly, and a time consuming process
+ 	 
+Scale out: where here economical machines can be added up instead of adding the data storage through devices.
+ 	many number of computers can be added together to share the data's.and this is the better method than scale 
+ 	up.which is economical as well work is distributed among different machines.
+ 	> Use multiple commodity (economical) machines and distribute the load of
+ 	storage/processing among them
+ 	> Economical and quick to implement as it focuses on distribution of load
+ 	> Instead of having a single system with 10 TB of storage and 80 GB of RAM, use 40
+ 	machines with 256 GB of storage and 2 GB of RAM
